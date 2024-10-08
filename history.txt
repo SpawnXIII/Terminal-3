@@ -1,0 +1,14 @@
+  171  head wilders.csv
+  172  cat wilders.csv
+  173  grep France;2019;PHP wilders.csv >php_france_2019.csv
+  174  &
+  175  grep France;2019;PHP wilders.csv > php_france_2019.csv
+  176  grep "France;2019;PHP" wilders.csv > php_france_2019.csv
+  177  grep "JavaScript" wilders.csv > JavaScript.csv
+  178  grep "Biarritz" JavaScript.csv > Biarritz.csv
+  179  grep "Toulouse" JavaScript.csv > Toulouse.csv
+  180  man sort
+  181  cat Biarritz.csv Toulouse.csv > javascript_biarritz_toulouse.csv
+  182  cat javascript_biarritz_toulouse.csv
+  183  history | tail -14
+  184  history | tail -14 > history.txt
