@@ -1,3 +1,0 @@
-   41  ls ~ > javascript_biarritz_toulouse.csv
-   42  history | tail -n <3> > history.txt
-   43  history | tail -n 3 > history.txt
